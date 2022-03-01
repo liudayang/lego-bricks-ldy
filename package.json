@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "npm run clean && npm run build:esm && npm run build:umd",
     "test:unit": "vue-cli-service test:unit",
+    "test": "vue-cli-service test:unit",
     "test:watch": "vue-cli-service test:unit --watch",
     "lint": "vue-cli-service lint --max-warnings 5",
     "build:esm": "rollup --config build/rollup.esm.config.js",
